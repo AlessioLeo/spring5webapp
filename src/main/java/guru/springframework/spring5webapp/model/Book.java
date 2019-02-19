@@ -14,7 +14,8 @@ public class Book {
     private Long id;
     private String title;
     private String isbn;
-	@OneToOne
+
+    @OneToOne
     private Publisher publisher;
 
     @ManyToMany
